@@ -10,3 +10,6 @@ RUN mkdir /etc/clish /src \
     && cd / && rm -rf /src/
 
 COPY etc.clish/* /etc/clish/
+COPY klish /bin/klish
+
+CMD ["/bin/klish"]
