@@ -12,4 +12,4 @@ RUN mkdir /etc/clish /src \
 
 COPY etc.clish/* /etc/clish/
 
-CMD ["/usr/local/bin/clish"]
+CMD ["/bin/clish"]
